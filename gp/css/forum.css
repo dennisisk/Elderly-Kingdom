@@ -1,0 +1,74 @@
+.breadcrumb-bar {
+	width: 100%;
+}
+.centerdiv{
+	margin: 0 auto;
+	width: 80%;
+}
+.row1{
+	max-width: 1500px;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.row2{
+	max-width: 1500px;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+/* Main column */
+.main { 
+	width: 70%; /* Set the width of the main content */
+	background-color: #f1f1f1; /* White background color */
+	padding-left: 20px; /* Some padding */
+	padding-right: 20px; /* Some padding */
+	padding-top: 20px; /* Some padding */
+}
+/* Sidebar column */
+.side {
+	min-width: 168px;
+	width: 30%; /* Set the width of the sidebar */
+	background-color: #f1f1f1; /* Grey background color */
+	padding-left: 20px; /* Some padding */
+	padding-right: 20px; /* Some padding */
+	padding-top: 20px; /* Some padding */
+}
+/* Round button for like and dislike button */
+.button-round {
+	margin: 1px !important;
+	border-radius: 8px !important;
+}
+ .panel-body img{
+	max-width: 100%;
+	max-height: 100% 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 3px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+}
+/* mobile fix */
+@media (max-width: 768px) {
+	.side {
+		width: 100%;
+		padding-bottom: 0px;
+	}
+	.main {
+		width: 100%;
+	}
+	.row2{
+		flex-flow: column-reverse;
+	}
+}
