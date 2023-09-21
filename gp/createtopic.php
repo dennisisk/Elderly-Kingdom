@@ -6,7 +6,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.css">
 		<link rel="stylesheet" type="text/css" href="css/header.css">
 		<link rel="stylesheet" type="text/css" href="css/forum.css">
-		<title>Create Topic | Elderly Kingdom</title>
+		<title>Create Topic | Elderly Kingdom | Welcome to Elderly Kingdom</title>
 	</head>
 	<body>
 		<?php if(isset($_POST['post'])) { 
