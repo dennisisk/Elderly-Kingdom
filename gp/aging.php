@@ -9,7 +9,7 @@
     <div class="container-fluid bg-ag1 text-center">
       <div class="headers">
         <h2>What are we going to introduce?</h2>
-        <h3>The most unwanted term to be heard: Aging.</h3>
+        <h3>The most unwanted term to be heard: Agingsss.</h3>
         <img src="img/aging.jpg" class="img-circle">
       </div>
     </div>
